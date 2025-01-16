@@ -23,6 +23,7 @@ header{
     z-index: 999;
     background-color: cadetblue;
     padding: 8px 32px;
+    width:100%;
 }
 .content{
     position:relative;
