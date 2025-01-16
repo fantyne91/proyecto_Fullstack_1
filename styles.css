@@ -1,0 +1,58 @@
+/*general*/
+html,body{
+    margin:0px;
+    box-sizing: border-box;
+     background-color: #1e1e1e;
+    color:white;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+button{
+    border:none;
+    border-radius: 5px;
+    padding: 8px 16px;
+    cursor: pointer;
+    background-color: cadetblue;
+}
+
+/*body*/
+
+header{
+    position: sticky;
+    top:0px;
+    z-index: 999;
+    background-color: cadetblue;
+    padding: 8px 32px;
+}
+.content{
+    position:relative;
+    padding: 32px;
+}
+.sidebar{
+    right:32px;
+    position: absolute;   
+}
+.features{
+    position: relative;
+    width: 600px;
+    margin: auto;
+    text-align: center;
+}
+footer{
+    position:relative;
+    z-index: 1;
+  border-top: 1px solid #666464;
+    color:white;
+    padding: 8px 32px;
+    margin-top:32px;    
+}
+
+/*Text*/
+
+h1{
+ margin: 0px;
+
+}
+h2,h3{
+    color: cadetblue;
+}
