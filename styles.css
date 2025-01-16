@@ -16,7 +16,6 @@ button{
 }
 
 /*body*/
-
 header{
     position: sticky;
     top:0px;
@@ -25,22 +24,25 @@ header{
     padding: 8px 32px;
     width:100%;
 }
-.content{
+main{
     position:relative;
     padding: 32px;
 }
+
+
 .sidebar{
     right:32px;
+    top:32px;
     position: absolute;   
 }
 .features{
-    position: relative;
+    
     width: 600px;
     margin: auto;
     text-align: center;
 }
 footer{
-    position:relative;
+    
     z-index: 1;
   border-top: 1px solid #666464;
     color:white;
