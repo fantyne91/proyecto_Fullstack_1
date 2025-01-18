@@ -226,8 +226,11 @@ footer{
     padding: 8px 32px;
     margin-top:32px;   
     color: cadetblue; 
+    flex-wrap: wrap;
+    text-align: center;
 }
 footer .redes>div{
+    
     display: flex;
     gap: 16px;
 
